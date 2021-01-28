@@ -1,0 +1,216 @@
+.DE{
+  color: darkblue;
+}
+
+table{
+  margin-bottom: 200px;
+  margin-top: -450px;
+  margin-left: 600px;
+  font-size: 25px;
+  font-variant: small-caps;
+  font-weight:bold;
+  font-family: monospace;
+  color : black;
+  background-color: black;
+
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+#t tr:nth-of-type(even) {
+  background-color: darkblue;
+  color: black;
+}
+#t tr:nth-of-type(odd) {
+  background-color: black;
+  color: white;
+}
+#t th {
+  color: black;
+  background-color: white;
+}
+#mainkatour{
+  background-image:url("../images3/dark1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height : 100vh;
+  overflow: hidden;
+}
+#Darkenergytheories{
+  display: none;
+
+}
+#DarkMatter{
+  display: none;
+
+}
+#forenergy{
+  position: absolute;
+  top:30px;
+  right: 140px;
+  transform: rotate(90deg);
+  display: none;
+
+}
+#forMatter{
+  position: absolute;
+  top:30px;
+  right: 80px;
+  transform: rotate(90deg);
+  display: none;
+}
+.bg{
+  background-color: #eee;
+  padding: 1px;
+}
+.bg h3{
+  color: darkblue;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.design{
+  background-color: grey;
+  padding: 10px;
+  width: 50%;
+  box-shadow: 0px 0px 3px black;
+
+
+}
+.design p{
+  color: #eee;
+  text-shadow: 0px 0px 3px black;
+}
+}
+#DarkMatter h1{
+  margin-top: 0;
+
+}
+#DarkMatter img{
+  margin-right: 100px;
+}
+#DarkMatter{
+  background-color: #eee;
+  padding: 30px;
+}
+.design2 p{
+  color: #eee;
+  background-color: grey;
+  text-shadow: 0px 0px 3px black;
+}
+.bg li{
+  color: darkblue;
+}
+#myVideo {
+  position: relative;
+  float: right;
+  width: 500px;
+  height:500px;
+  margin-top: -100px;
+  margin-right: 100px;
+}
+.content {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  margin-top: 250px;
+  margin-right: -200px;
+}
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.slideshow-container {
+  width: 1340px;
+  height: 600px;
+  position: relative;
+  margin: auto;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+#Darkenergytheories{
+  background-color: black;
+}
+#Darkenergytheories p{
+color: #eee;
+margin-left: 225px;
+text-shadow: 0px 0px 3px black;
+}
